@@ -162,6 +162,7 @@ body {
 }
 
 .search input {
+  margin: auto;
   background-color: var(--shadow-light);
   outline: none;
   border: none;
@@ -170,8 +171,11 @@ body {
   color: var(--grey-1);
   font-size: 0.8em;
   text-align: center;
-}
 
+}
+.search input:focus{
+  border: 1px solid rgba(255,255,255,0.3);
+}
 @media(max-width:400px){
   body{
     background-color: #FAC742;
